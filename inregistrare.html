@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <meta
+      name="keywords"
+      content="flori,florarie,aranjament floral,buchet,buchet de flori,plante"
+    />
+    <meta
+      name="description"
+      content="Luxa este o una dintre cele mai vechi florarii din Bucuresti...(adauga cat mai multe cuvinte cheie)(100 chars)999"
+    />
+    <title>Luxa est.1992</title>
+    <!--  -->
+    <head>
+      <meta
+        name="keywords"
+        content="flori,florarie,aranjament floral,buchet,buchet de flori,plante"
+      />
+      <meta
+        name="description"
+        content="Luxa este o una dintre cele mai vechi florarii din Bucuresti...(adauga cat mai multe cuvinte cheie)(100 chars)999"
+      />
+      <title>Luxa est.1992</title>
+      <!--  -->
+      <meta charset="UTF-8" />
+      <meta name="author" content="Bigu Theodor" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link
+        rel="shortcut icon"
+        href="/resurse/pictures/luxa-favicon.ico"
+        type="image/x-icons"
+      />
+      <link rel="stylesheet" href="/resurse/styles/style.css" />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+        rel="stylesheet"
+      />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap"
+        rel="stylesheet"
+      />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap"
+        rel="stylesheet"
+      />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Quintessential&display=swap"
+        rel="stylesheet"
+      />
+      <script type="text/javascript" src="/resurse/js/hideNavbar.js"></script>
+      <script type="text/javascript" src="/resurse/js/inregistrare.js"></script>
+      <link
+        rel="stylesheet"
+        href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+        crossorigin="anonymous"
+      />
+    </head>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <!-- cerinta 6 -->
+        <label id="burger" for="ch-meniu">
+          <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+        </label>
+        <input id="ch-meniu" type="checkbox" />
+        <ul class="nav-links">
+          <li class="dropdown-acasa">
+            <a class="acasa main-li" href="/index.html"
+              ><i class="fas fa-home"></i>Acasa</a
+            >
+            <ul class="submeniu">
+              <li><a href="/index.html#despre-noi">Despre noi</a></li>
+              <li>
+                <a href="/index.html#calendar-evenimente"
+                  >Calendar evenimente</a
+                >
+              </li>
+              <li><a href="/index.html#contact">Contact</a></li>
+            </ul>
+          </li>
+          <li class="dropdown-produse">
+            <a class="main-li" href="/produse.html">Produse</a>
+            <ul class="submeniu">
+              <li><a href="/produse.html?tip=buchet">Buchete</a></li>
+              <li><a href="/produse.html?tip=aranjament">Aranjamente</a></li>
+              <li><a href="/produse.html?tip=planta">Plante</a></li>
+            </ul>
+          </li>
+          <li>
+            <a class="main-li" href="/inregistrare.html">Înregistrare</a>
+          </li>
+        </ul>
+        <ul class="profile">
+          <li>
+            <a href="/profil.html"><i class="fas fa-user"></i></a>
+          </li>
+          <li>
+            <div class="popup-div">
+              <a href="/produse_cos.html"
+                ><i class="fas fa-shopping-cart"></i
+              ></a>
+              <span class="popuptext" id="myPopup">Adăugat in coș 🛒</span>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div>
+        <section class="section-form">
+          <form
+            id="form_inreg"
+            method="post"
+            class="date"
+            enctype="multipart/form-data"
+            onsubmit="submitForm(event)"
+          >
+            <p>
+              <input
+                placeholder="Username"
+                type="text"
+                name="Username"
+                id="Username"
+                required
+                autocomplete="off"
+                value=""
+                pattern="[A-Za-z0-9]+"
+              />
+            </p>
+            <p>
+              <input
+                placeholder="Nume"
+                type="text"
+                name="nume"
+                id="inp-nume"
+                autocomplete="off"
+                value=""
+              />
+            </p>
+            <p>
+              <input placeholder="Prenume" type="text" name="prenume"
+              id="inp-prenume" value="" autocomplete="off"
+            </p>
+
+            <p>
+              <input
+                placeholder="Parola"
+                id="parl"
+                type="password"
+                required
+                name="Password"
+                value=""
+                autocomplete="off"
+              />
+            </p>
+            <!-- <p id="p-reintrod">
+              <input
+                placeholder="Reintroduceti parola"
+                id="rparl"
+                required
+                type="password"
+                name="rparola"
+                value=""
+                autocomplete="off"
+              />
+            </p> -->
+
+            <p>
+              <button
+                class="button-82-pushable-submit"
+                role="button"
+                type="submit"
+                value="sub"
+              >
+                <span class="button-82-shadow-submit"></span>
+                <span class="button-82-edge-submit"></span>
+                <span class="button-82-front-submit text">Register</span>
+              </button>
+
+              <button
+                class="button-82-pushable"
+                role="button"
+                type="reset"
+                value="Reseteaza"
+              >
+                <span class="button-82-shadow"></span>
+                <span class="button-82-edge"></span>
+                <span class="button-82-front text">Reseteaza</span>
+              </button>
+            </p>
+          </form>
+        </section>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col">
+            <h4>Luxa</h4>
+            <ul>
+              <li><a href="/index.html">acasa</a></li>
+              <li><a href="/index.html#despre-noi">despre noi</a></li>
+              <li><a href="/index.html#contact">contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Produse</h4>
+            <ul>
+              <li><a href="/produse.html?tip=buchet">buchete</a></li>
+              <li><a href="/produse.html?tip=aranjament">aranjamente</a></li>
+              <li><a href="/produse.html?tip=planta">plante</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Recent pe blog:</h4>
+            <section id="sectiune-galerie-animata">
+              <div id="galerie-animata" class="galerie-a">
+                <!-- <h2>Galerie animata</h2> -->
+                <figure>
+                  <img
+                    src="/resurse/pictures/galerie/mic/floarea_soarelui-150.webp"
+                  />
+                </figure>
+              </div>
+              <button class="blog-button" role="button">
+                <span class="text">Hai să vezi</span>
+              </button>
+            </section>
+          </div>
+
+          <div class="footer-col">
+            <h4>Follow us</h4>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-pinterest-square"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
